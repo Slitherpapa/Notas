@@ -2,11 +2,11 @@
 <html lang="en" style="height:100%;" wp-site wp-site-is-master-page>
     <head> 
         <meta charset="utf-8"> 
-        <title>Notas SlitherPapa</title>
+        <title>Navegador SlitherPapa</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="keywords" content="pinegrow, blocks, bootstrap"/>
-        <meta name="description" content/>
-        <link rel="shortcut icon" href="">
+        <link rel="shortcut icon" href=""> 
+        <meta name="description" content="Navegador"/>
         <!-- Core CSS -->         
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -40,15 +40,15 @@
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="navbar-collapse">
                         <ul class="nav navbar-nav navbar-right" wp-nav-menu="primary" wp-nav-menu-depth="2" wp-nav-menu-type="bootstrap">
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a href="index.html">Home</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a href="Download.html">Downloads</a>
                             </li>
                             <li class="nav-item">
                                 <a href="Valor.html">preço</a>
-                            </li>                             
+                            </li>
                             <!-- /.dropdown -->                             
                             <li class="nav-item">
 </li>
@@ -60,39 +60,35 @@
                 <!-- /.container-fluid -->
             </nav>
         </header>
-        <section class="content-block pricing-table-1 pricing-table-1-2" wp-cz-section="blocks_pricing_1_2" wp-cz-section-title="Pricing 1-2">
+        <section id="content-1-3" class="content-block content-1-3" wp-cz-section="blocks_content_1_3" wp-cz-section-title="Content 1-3" wp-cz-control="blocks_content_1_3_source" wp-cz-control-label="Content source" wp-cz-control-type="custom" wp-cz-control-type-custom="WP_BlocksContentDropdown_Customize_Control" wp-cz-control-section="blocks_content_1_3">
             <div class="container">
-                <div class="underlined-title">
-</div>
-                <h1 wp-cz-control="blocks_pricing_1_2_title" wp-cz-control-label="Title" wp-cz-control-section="blocks_pricing_1_2" wp-cz-theme-mod="blocks_pricing_1_2_title">Downloads</h1>
                 <div class="row">
-                    <div class="col-sm-4 price-block">
-                        <div class="ribbon"></div>
-                        <!-- Ribbon -->
-                        <h3>arquivo .apk</h3>
-                        <div class="price pastel-red">
-                            <div class="price-figure">
-                                <h4>FREE</h4>
-                                <p>saiba mais <a target="_blank" href="https://youtu.be/lRFnQ0mx8cI">aqui</a>.</p>
+                    <div class="col-md-12">
+                        <div class="underlined-title">
+</div>
+                        <h1 wp-cz-control="blocks_content_1_3_title" wp-cz-control-label="Title" wp-cz-control-section="blocks_content_1_3" wp-cz-theme-mod="blocks_content_1_3_title">Tudo que precisa saber!</h1>
+                        <div class="services-wrapper">
+                            <div class="col-md-4" wp-loop="services" wp-loop-post_parent="get_theme_mod('blocks_content_1_3_source')" wp-loop-post-type-custom="blocks_content" wp-loop-post-status="publish" wp-loop-order="ASC" wp-loop-orderby="menu_order" wp-loop-nopaging="true">
+                                <div class="icon bg-crete">
+                                    <span class="fa fa-lock" wp-meta-value="" wp-meta-value-key="icon" wp-meta-value-set="attr" wp-meta-value-set-attr="class" wp-meta-value-set-attr-append="true" wp-remove-class="fa-laptop"></span>
+                                </div>
+                                <h4 wp-the-title="">Seguro</h4>
+                                <p wp-the-content="">100% seguro e confiavel! Sem vírus ou malware! ;)</p>
+                            </div>
+                            <div class="col-md-4" wp-loop-skip="">
+                                <div class="icon bg-sunflower">
+                                    <span class="fa fa-sticky-note"></span>
+                                </div>
+                                <h4>Desenho</h4>
+                                <p>Desenhe qualquer coisa!</p>
                             </div>
                         </div>
-                        <ul class="features">
-</ul>
-                        <div class="price-footer">
-                            <a class="btn btn-info" href="Notas[1].apk">baixe já</a>
-                        </div>
-                    </div>                     
+                    </div>
                 </div>
                 <!-- /.row -->
             </div>
             <!-- /.container -->
         </section>
-        <div class="panel-group" id="panels1"> 
-</div>
-        <div class="panel-group" id="panels2"> 
-</div>
-        <div class="panel-group" id="panels3"> 
-</div>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         
         <script type="text/javascript" src="js/bootstrap.min.js"></script>         
         <script type="text/javascript" src="js/plugins.js"></script>
